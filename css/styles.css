@@ -1,0 +1,193 @@
+
+:root {
+    --color-iris: #4d5ae5;
+    --color-ocean: #404bbf;
+    --color-navy-blue: #2e2f42;
+    --color-green: #31d0aa;
+    --color-slate: #434455;
+    --color-light-slate: #8e8f99;
+    --color-cornflower: #e7e9fc;
+    --color-cloud: #f4f4fd;
+    --color-navy-blue-modal: #2e2f42;
+    --color-grey: #2e2f42;
+    --color-white: #ffffff;
+    --color-dairy: #fcfcfc;
+}
+/*---------------------*/
+.body {
+  font-size: 16px;
+	font-family: 'Roboto' sans-serif;
+	font-weight: 400;
+	line-height: 24px;
+	letter-spacing: 0.02em;
+	text-decoration: none;
+	text-transform: none;
+}
+
+.list {
+  text-decoration: none;
+  color:black;
+}
+
+
+
+
+/* Header */
+
+.header {
+}
+.header-nav {
+}
+.header-logo {
+}
+.header-menu-list {
+  color: var(--color-navy-blue);
+}
+.he-menu-list-item {
+  font-size: 12px;
+	font-family: 'Roboto' sans-serif;
+	font-weight: 400;
+	line-height: 16px;
+	letter-spacing: 0.04em;
+	text-decoration: underline;
+	text-transform: none;
+}
+.he-address {
+}
+.he-address-list {
+}
+.he-address-list-item {
+  font-size: 12px;
+	font-family: 'Roboto' sans-serif;
+	font-weight: 400;
+	line-height: 16px;
+	letter-spacing: 0.04em;
+	text-decoration: underline;
+	text-transform: none;
+  color: var(--color-slate);
+}
+
+
+/* Main */
+
+.main {
+}
+
+/* Hero */
+
+.hero {
+  background-color: var(--color-navy-blue);
+
+}
+.hero-heading {
+  font-size: 56px;
+  font-family: 'Roboto' sans-serif;
+  font-weight: 700;
+  line-height: 60px;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  text-transform: none;
+  color: var(--color-dairy);
+}
+.hero-btn {
+  font-size: 16px;
+	font-family: 'Roboto' sans-serif;
+	font-weight: 500;
+	line-height: 24px;
+	letter-spacing: 0.04em;
+	text-decoration: none;
+	text-transform: none;
+  background-color: var(--color-iris);
+  color: var(--color-white);
+}
+
+/* Advantages */
+
+.advantages {
+}
+.advantages-heading {
+  font-size: 36px;
+	font-family: 'Roboto' sans-serif;
+	font-weight: 700;
+	line-height: 40px;
+	letter-spacing: 0.02em;
+	text-decoration: none;
+	text-transform: capitalize;
+}
+.advantages-list {
+}
+.advantages-list-item {
+}
+.advantages-item-heading {
+  font-size: 20px;
+	font-family: 'Roboto' sans-serif;
+	font-weight: 500;
+	line-height: 24px;
+	letter-spacing: 0.02em;
+	text-decoration: none;
+	text-transform: none;
+}
+.advantages-item-text {
+}
+
+/* Doing */
+
+.doing {
+}
+.doing-heading {
+  font-size: 36px;
+	font-family: 'Roboto' sans-serif;
+	font-weight: 700;
+	line-height: 40px;
+	letter-spacing: 0.02em;
+	text-decoration: none;
+	text-transform: capitalize;
+}
+.doing-list {
+}
+.doing-list-item {
+}
+.doing-list-item-img {
+}
+
+/* Team */
+
+.team {
+  background-color: var(--color-cloud);
+}
+.team-heading {
+  font-size: 36px;
+	font-family: 'Roboto' sans-serif;
+	font-weight: 700;
+	line-height: 40px;
+	letter-spacing: 0.02em;
+	text-decoration: none;
+	text-transform: capitalize;
+}
+.team-list {
+}
+.team-list-item {
+}
+.team-list-item-names {
+}
+.team-list-item-text {
+}
+.team-list-item-img {
+}
+
+/* Footer */
+
+.footer {
+  background-color: var(--color-navy-blue);
+}
+.footer-logo-link {
+}
+.footer-text {
+  font-size: 16px;
+	font-family: 'Roboto' sans-serif;
+	font-weight: 400;
+	line-height: 24px;
+	letter-spacing: 0.02em;
+	text-decoration: none;
+	text-transform: none;
+}
