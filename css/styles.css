@@ -8,63 +8,111 @@
     --color-light-slate: #8e8f99;
     --color-cornflower: #e7e9fc;
     --color-cloud: #f4f4fd;
-    --color-navy-blue-modal: #2e2f42;
     --color-grey: #2e2f42;
     --color-white: #ffffff;
     --color-dairy: #fcfcfc;
 }
 /*---------------------*/
 .body {
-  font-size: 16px;
-	font-family: 'Roboto' sans-serif;
-	font-weight: 400;
-	line-height: 24px;
-	letter-spacing: 0.02em;
-	text-decoration: none;
-	text-transform: none;
 }
 
 .list {
-  text-decoration: none;
-  color:black;
+	list-style: none;
 }
 
+.link {
+	
+}
 
+Family: Roboto
+Weight: Bold
+Size: 56px
+Letter Spacing: 2%
+Line Height: 60px
+
+Family: Roboto
+Weight: Bold
+Size: 36px
+Letter Spacing: 2%
+
+Family: Roboto
+Weight: Medium
+Size: 20px
+Letter Spacing: 2%
+
+Family: Roboto
+Weight: Regular
+Size: 16px
+Line Height: 24px
+Letter Spacing: 2%
+
+Family: Roboto
+Weight: Regular
+Size: 12px
+Line Height: 14px
+Letter Spacing: 4%
+
+Family: Roboto 
+Font Weight: Medium
+Size: 16px
+Line Height: 24px
+Letter Spacing: 2%
+
+btn
+Family: Roboto
+Weight: Medium
+Size: 16px 
+Line Height: 24px
+Letter Spacing: 4%
+
+
+link 
+Family: Roboto
+Weight: Regular
+Size: 12px 
+Line Height: 16px
+Letter Spacing: 4%
+Decoration: Underline
 
 
 /* Header */
 
 .header {
+	background-color: var(--color-cornflower);
 }
 .header-nav {
 }
 .header-logo {
 }
 .header-menu-list {
-  color: var(--color-navy-blue);
 }
 .he-menu-list-item {
-  font-size: 12px;
-	font-family: 'Roboto' sans-serif;
-	font-weight: 400;
-	line-height: 16px;
-	letter-spacing: 0.04em;
-	text-decoration: underline;
-	text-transform: none;
+	font-family: Roboto sans-serif;
+  font-weight: 500;
+  size: 16px;
+  line-height: 1.5em;
+  letter-spacing: 2%;
+	color: #2e2f42;
+	text-decoration: none;
 }
 .he-address {
 }
 .he-address-list {
 }
-.he-address-list-item {
-  font-size: 12px;
-	font-family: 'Roboto' sans-serif;
-	font-weight: 400;
-	line-height: 16px;
-	letter-spacing: 0.04em;
-	text-decoration: underline;
-	text-transform: none;
-  color: var(--color-slate);
+.he-address-list-item-email {
+	font-family: Roboto sans-serif;
+	size: 16px;
+	line-height: 1.5em;
+	letter-spacing: 2%;
+	color: var(--color-slate);
+  text-decoration: none;
+}
+.he-address-list-item-phone {
+	font-family: Roboto sans-serif;
+	size: 16px;
+	line-height: 1.5em;
+	letter-spacing: 2%;
+	color: var(--color-ocean);
 }
 
 
@@ -77,28 +125,25 @@
 
 .hero {
   background-color: var(--color-navy-blue);
-
 }
 .hero-heading {
-  font-size: 56px;
-  font-family: 'Roboto' sans-serif;
-  font-weight: 700;
-  line-height: 60px;
-  letter-spacing: 0.02em;
-  text-decoration: none;
-  text-transform: none;
-  color: var(--color-dairy);
+	font-family: Roboto sans-serif;
+	font-weight: 700;
+  size: 56px;
+  letter-spacing: 2%;
+  line-height: 1.0em;
+	color: var(--color-white);
+	text-align: center;
 }
 .hero-btn {
-  font-size: 16px;
-	font-family: 'Roboto' sans-serif;
+	color: var(--color-white);
+	background-color: var(--color-iris);
+	border: none;
+	font-family: Roboto sans-serif;
 	font-weight: 500;
-	line-height: 24px;
-	letter-spacing: 0.04em;
-	text-decoration: none;
-	text-transform: none;
-  background-color: var(--color-iris);
-  color: var(--color-white);
+	size: 16px;
+	line-height: 1.5em;
+	letter-spacing: 4%;
 }
 
 /* Advantages */
@@ -106,28 +151,33 @@
 .advantages {
 }
 .advantages-heading {
-  font-size: 36px;
-	font-family: 'Roboto' sans-serif;
-	font-weight: 700;
-	line-height: 40px;
-	letter-spacing: 0.02em;
-	text-decoration: none;
-	text-transform: capitalize;
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 .advantages-list {
 }
 .advantages-list-item {
 }
 .advantages-item-heading {
-  font-size: 20px;
-	font-family: 'Roboto' sans-serif;
+	font-family: Roboto sans-serif;
 	font-weight: 500;
-	line-height: 24px;
-	letter-spacing: 0.02em;
-	text-decoration: none;
-	text-transform: none;
+	letter-spacing: 2%;
+	color: var(--color-navy-blue);
 }
 .advantages-item-text {
+	font-family: Roboto sans-serif;
+	line-height: 1.5em;
+	letter-spacing: 2%;
+	color: var(--color-slate);
 }
 
 /* Doing */
@@ -135,13 +185,11 @@
 .doing {
 }
 .doing-heading {
-  font-size: 36px;
-	font-family: 'Roboto' sans-serif;
+	font-family: Roboto sans-serif;
 	font-weight: 700;
-	line-height: 40px;
-	letter-spacing: 0.02em;
-	text-decoration: none;
-	text-transform: capitalize;
+	letter-spacing: 2%;
+	color: var(--color-navy-blue);
+	text-align: center;
 }
 .doing-list {
 }
@@ -153,24 +201,31 @@
 /* Team */
 
 .team {
-  background-color: var(--color-cloud);
+	background-color: var(--color-cloud);
 }
 .team-heading {
-  font-size: 36px;
-	font-family: 'Roboto' sans-serif;
-	font-weight: 700;
-	line-height: 40px;
-	letter-spacing: 0.02em;
-	text-decoration: none;
-	text-transform: capitalize;
+	font-family: Roboto sans-serif;
+  font-weight: 700;
+	letter-spacing: 2%;
+	color: var(--color-navy-blue);
 }
 .team-list {
 }
 .team-list-item {
+	background-color: var(--color-white);
 }
 .team-list-item-names {
+	font-family: Roboto sans-serif;
+	font-weight: 500;
+	letter-spacing: 2%;
+	color: var(--color-navy-blue);
 }
 .team-list-item-text {
+	font-family: Roboto sans-serif;
+	font-weight: normal;
+	line-height: 1.5em;
+	letter-spacing: 2%;
+	color: var(--color-slate);
 }
 .team-list-item-img {
 }
@@ -178,16 +233,13 @@
 /* Footer */
 
 .footer {
-  background-color: var(--color-navy-blue);
+	background-color: var(--color-navy-blue);
 }
 .footer-logo-link {
 }
 .footer-text {
-  font-size: 16px;
-	font-family: 'Roboto' sans-serif;
-	font-weight: 400;
-	line-height: 24px;
-	letter-spacing: 0.02em;
-	text-decoration: none;
-	text-transform: none;
+	font-family: Roboto sans-serif;
+	line-height: 1.5em;
+	letter-spacing: 2%;
+	color: var(--color-cloud);
 }
